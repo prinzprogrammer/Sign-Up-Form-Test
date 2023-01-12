@@ -1,0 +1,113 @@
+.right-section {
+    width: 1fr;
+    height: 100vh;
+    background-color: rgb(251, 251, 251);
+}
+
+.textBox {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 100px;
+    padding-left: 35px;
+    padding-right: 100px;
+}
+
+.desText {
+    width: 460px;
+    margin-bottom: 20px;
+}
+
+.subText {
+    margin-bottom: 40px;
+}
+
+input {
+    border-color: #E5E7EB;
+    border-width: 1px;
+}
+
+ul {
+    padding: 0;
+}
+
+.inputFieldContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    padding-left: 35px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+
+/* legendField */
+
+.legendText {
+    font-size: 1rem;
+    font-weight: 700;
+    padding-top: 15px;
+    margin-bottom: 18px;
+}
+
+form {
+    display: flex;
+}
+
+
+/* inputLeftRightContainer */
+
+.flexstyle {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.inputLeftRightContainer {
+    display: flex;
+    justify-content: start;
+}
+
+.inputLeft {
+    width: 1fr;
+    margin-right: 50px;
+}
+
+.inputRight {
+    width: 1fr;
+}
+
+label {
+    font-size: 0.6rem;
+}
+
+
+/* lowerField */
+
+.lowerField {
+    padding-left: 35px;
+}
+
+button {
+    background-color: #596D48;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+    border-style: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 0.8rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.lowerFieldText {
+    font-size: 0.8rem;
+}
+
+.login {
+    color: #596D48;
+    text-decoration: none;
+}

@@ -1,0 +1,53 @@
+.left-section {
+    width: 1fr;
+    height: 100vh;
+}
+
+.left-card {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    width: 445px;
+}
+
+.leftSectionimg {
+    position: absolute;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.groupLogoContainer {
+    z-index: 2;
+    width: 100%;
+    margin-top: 115px;
+}
+
+.groupLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 0px;
+    z-index: 2;
+}
+
+.logoImg {
+    height: 100px;
+    margin-right: 5px;
+}
+
+.logoText {
+    font-size: 3rem;
+    color: white;
+}
+
+.photoDetails {
+    text-decoration: underline;
+    position: fixed;
+    color: white;
+    font-size: 0.6rem;
+    bottom: 0;
+    margin-bottom: 5px;
+    z-index: 2;
+}
