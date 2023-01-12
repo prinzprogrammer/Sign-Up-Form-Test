@@ -52,29 +52,21 @@ ul {
 
 form {
     display: flex;
+    flex-direction: column;
 }
 
+.inputRow {
+    display: flex;
+}
 
-/* inputLeftRightContainer */
+.inputRow div {
+    margin-right: 50px;
+}
 
 .flexstyle {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
-}
-
-.inputLeftRightContainer {
-    display: flex;
-    justify-content: start;
-}
-
-.inputLeft {
-    width: 1fr;
-    margin-right: 50px;
-}
-
-.inputRight {
-    width: 1fr;
 }
 
 label {
